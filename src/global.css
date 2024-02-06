@@ -1,0 +1,16 @@
+:root {
+    --Fonte: 'Noto Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--Fonte);
+    /* max-width: 1440px; */
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(255, 239, 239);
+}

@@ -1,0 +1,8 @@
+:root {
+    --cor: #be75fa;
+}
+
+.container {
+    background-color: var(--cor);
+    padding: 2em;
+}

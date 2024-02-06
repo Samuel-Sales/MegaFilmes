@@ -1,0 +1,26 @@
+/* .container__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 650px);
+    justify-items: center;
+    align-items: center;
+    gap: 26px;
+} */
+
+.container__search {
+    padding: 2em;
+    display: flex;
+}
+
+.container__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+}
+
+.container__grid {
+    display: grid;
+    grid-template-columns: repeat(5, 270px);  /* 4, 650px */
+    gap: 20px;
+}

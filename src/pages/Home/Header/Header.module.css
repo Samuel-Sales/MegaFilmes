@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.7rem;
+    background-color: blue;
+}
+
+h2 {
+    color: white;
+}
+
+span {
+    color: purple;
+}
+
+.container__links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container__links p {
+    color: white;
+}
