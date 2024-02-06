@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Cards from '../../../components/Cards/Cards';
 import style from './Main.module.css';
-import api from '../../../api/api';
+import api from '../../../api/Api';
 
 export default function Main() {
     const [dados, setDados] = useState();
