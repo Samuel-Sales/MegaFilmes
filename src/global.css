@@ -1,5 +1,6 @@
 :root {
     --Fonte: 'Noto Sans', sans-serif;
+    --Cor-de-fundo-body: #00ADB5;
 }
 
 * {
@@ -12,5 +13,5 @@
 }
 
 body {
-    background-color: rgb(255, 239, 239);
+    background-color: var(--Cor-de-fundo-body);
 }

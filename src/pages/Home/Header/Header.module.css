@@ -1,9 +1,13 @@
+:root {
+    --cor-de-fundo: #222831;
+}
+
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.7rem;
-    background-color: blue;
+    background-color: var(--cor-de-fundo);
 }
 
 h2 {

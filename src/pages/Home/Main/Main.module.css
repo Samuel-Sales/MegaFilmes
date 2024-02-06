@@ -11,6 +11,14 @@
     display: flex;
 }
 
+.search {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 500px;
+}
+
 .container__cards {
     display: flex;
     justify-content: center;

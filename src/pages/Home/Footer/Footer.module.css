@@ -1,8 +1,9 @@
 :root {
-    --cor: #be75fa;
+    --cor: #222831;
 }
 
 .container {
     background-color: var(--cor);
     padding: 2em;
+    color: white;
 }
