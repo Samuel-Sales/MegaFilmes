@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-import api from "./api/api";
 import Header from "./pages/Home/Header/Header";
 import Main from "./pages/Home/Main/Main";
 import Footer from "./pages/Home/Footer/Footer";
