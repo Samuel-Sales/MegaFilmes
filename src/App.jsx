@@ -1,6 +1,4 @@
-import Header from "./pages/Home/Header/Header";
-import Main from "./pages/Home/Main/Main";
-import Footer from "./pages/Home/Footer/Footer";
+import AppRoutes from "./Routes";
 
 export default function App() {
     // const [dados, setDados] = useState();
@@ -16,9 +14,7 @@ export default function App() {
 
     return (
         <>
-            <Header />
-            <Main />
-            <Footer />
+            <AppRoutes />
             {/* {dados && dados.map((dado) => (
                 <p key={dado.id}>
                     {dado.title}

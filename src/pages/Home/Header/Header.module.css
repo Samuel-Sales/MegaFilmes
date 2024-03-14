@@ -24,6 +24,11 @@ span {
     gap: 20px;
 }
 
+.container__linkss {
+    text-decoration: none;
+    color: white;
+}
+
 .container__links p {
     color: white;
 }
