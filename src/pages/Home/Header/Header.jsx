@@ -7,9 +7,9 @@ export default function Header() {
             <h2>Mega <span>Filmes</span></h2>
             <div className={style.container__links}>
                 <Link className={style.container__linkss} to='/'>Populares</Link>
-                <Link className={style.container__linkss} to='/'>Assistidos do momento</Link>
-                <Link className={style.container__linkss} to='/maisavaliados'>Mais votados</Link>
-                <Link className={style.container__linkss} to='/'>Vindo ai</Link>
+                <Link className={style.container__linkss} to='/assistidosdomomento'>Assistidos do momento</Link>
+                <Link className={style.container__linkss} to='/maisvotados'>Mais votados</Link>
+                <Link className={style.container__linkss} to='/vindoai'>Vindo ai</Link>
             </div>
         </header>
     );
