@@ -1,0 +1,20 @@
+.titulo {
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+    background-color: blanchedalmond;
+    margin-bottom: 1em;
+}
+
+.container__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+}
+
+.container__grid {
+    display: grid;
+    grid-template-columns: repeat(5, 270px);  /* 4, 650px */
+    gap: 20px;
+}

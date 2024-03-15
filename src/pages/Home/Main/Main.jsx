@@ -9,7 +9,6 @@ export default function Main() {
     useEffect(() => {
         async function CarregarData() {
             const { data: { results } } = await api.get('movie/popular');
-            console.log(results);
             setDados(results)
         }
         CarregarData();
