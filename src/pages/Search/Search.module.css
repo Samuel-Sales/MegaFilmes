@@ -1,0 +1,13 @@
+.container__movies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+}
+
+.container__grid {
+    display: grid;
+    grid-template-columns: repeat(5, 270px);  /* 4, 650px */
+    gap: 20px;
+}

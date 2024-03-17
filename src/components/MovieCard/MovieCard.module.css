@@ -1,0 +1,14 @@
+.container__movie {
+    border: 1px solid #000;
+    width: 250px;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.imagem {
+    background: gray;
+    width: 100%;
+    height: 240px; /* 160px */
+}

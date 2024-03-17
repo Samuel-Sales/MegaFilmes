@@ -2,9 +2,22 @@ import { useEffect, useState } from 'react';
 import Cards from '../../../components/Cards/Cards';
 import style from './Main.module.css';
 import api from '../../../api/Api';
+import { useNavigate } from 'react-router';
 
 export default function Main() {
     const [dados, setDados] = useState();
+    const [search, setSearch] = useState("");
+    const navigate = useNavigate();
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        if (!search) return;
+
+        navigate(`/search?q=${search}`, { replace: true });
+        setSearch("");
+    };
+
 
     useEffect(() => {
         async function CarregarData() {
@@ -16,9 +29,17 @@ export default function Main() {
 
     return (
         <>
-            <div className={style.container__search}>
-                <input className={style.search} type="text" placeholder='Encontre o seu filme' />
-            </div>
+            <form onSubmit={handleSubmit}>
+                <input
+                    type="text"
+                    placeholder="Busque um filme"
+                    onChange={(e) => setSearch(e.target.value)}
+                    value={search}
+                />
+                <button type="submit">
+                    Procurar
+                </button>
+            </form>
             <main className={style.container__cards}>
                 <div className={style.container__grid}>
                     {dados && dados.map((dado) => (
