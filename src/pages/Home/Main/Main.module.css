@@ -129,3 +129,23 @@
         grid-template-columns: repeat(4, 290px);
     }
 }
+
+@media screen and (min-width: 1536px) {
+    .container__caixa {
+        width: 470px;
+        padding: 1.2em;
+    }
+
+    .container__caixa::placeholder {
+        font-size: 18px;
+    }
+
+    .container__botao {
+        width: 170px;
+        font-size: 17px;
+    }
+
+    .container__grid {
+        grid-template-columns: repeat(5, 290px);
+    }
+}

@@ -50,3 +50,13 @@ span {
         font-size: 20px;
     }
 }
+
+@media screen and (min-width: 1536px) {
+    h2 {
+        font-size: 50px;
+    }
+
+    .container__linkss {
+        font-size: 25px;
+    }
+}
