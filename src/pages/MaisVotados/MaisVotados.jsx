@@ -17,7 +17,7 @@ export default function MaisVotados() {
 
     return (
         <>
-            <h2 className={style.titulo}>Os filmes mais assistidos do momento</h2>
+            <h2 className={style.titulo}>Os melhores filmes</h2>
             <section className={style.container__cards}>
                 <Link className={style.botao__inicial} to='/'>Página Inicial</Link>
                 <div className={style.container__grid}>
