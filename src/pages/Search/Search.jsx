@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import MovieCard from "../../components/MovieCard/MovieCard";
 import style from './Search.module.css';
 
@@ -29,6 +29,7 @@ const Search = () => {
         Resultados para: <span className="query-text">{query}</span>
       </h2>
       <section className={style.container__movies}>
+        <Link className={style.container__botao} to='/'>Página Inicial</Link>
         <div className={style.container__grid}>
           {movies.length > 0 &&
             movies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}

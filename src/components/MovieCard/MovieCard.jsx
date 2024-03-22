@@ -8,7 +8,6 @@ const MovieCard = ({ movie }) => {
         <section className={style.container}>
             <div className={style.container__movie}>
                 <img className={style.imagem} src={imagesURL + movie.poster_path} alt={movie.title} />
-                <h2>{movie.title}</h2>
                 <p>
                     <FaStar /> {movie.vote_average}
                 </p>

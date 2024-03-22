@@ -1,13 +1,73 @@
 .container__movies {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 3.125rem;
     margin-bottom: 3.125rem;
 }
 
+.container__botao {
+    margin-bottom: 1em;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: .5em;
+    border-radius: 7px;
+}
+
 .container__grid {
     display: grid;
     grid-template-columns: repeat(5, 270px);  /* 4, 650px */
     gap: 20px;
+}
+
+@media screen and (min-width: 368px) and (max-width: 398px) {
+    .container__grid {
+        grid-template-columns: repeat(1, 270px);
+    }
+}
+
+@media screen and (min-width: 399px) and (max-width: 639px) {
+    .container__grid {
+        grid-template-columns: repeat(1, 270px);
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .container__grid {
+        grid-template-columns: repeat(2, 270px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container__grid {
+        grid-template-columns: repeat(2, 370px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container__grid {
+        grid-template-columns: repeat(3, 290px);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container__botao {
+        padding: 1em;
+    }
+
+    .container__grid {
+        grid-template-columns: repeat(4, 290px);
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    .container__grid {
+        grid-template-columns: repeat(5, 290px);
+    }
+
+    .container__botao {
+        padding: 1.8em;
+    }
 }
