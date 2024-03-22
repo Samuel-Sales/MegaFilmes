@@ -29,14 +29,15 @@ export default function Main() {
 
     return (
         <>
-            <form onSubmit={handleSubmit}>
+            <form className={style.container__pesquisa} onSubmit={handleSubmit}>
                 <input
+                    className={style.container__caixa}
                     type="text"
                     placeholder="Busque um filme"
                     onChange={(e) => setSearch(e.target.value)}
                     value={search}
                 />
-                <button type="submit">
+                <button className={style.container__botao} type="submit">
                     Procurar
                 </button>
             </form>

@@ -6,6 +6,40 @@
     gap: 26px;
 } */
 
+.container__pesquisa {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.container__caixa {
+    width: 22%;
+    padding: 0.4em;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+.container__caixa::placeholder {
+    color: gray;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.container__botao {
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    padding: 0.7em;
+}
+
+.container__botao:hover {
+    opacity: 0.4;
+}
+
 .container__search {
     padding: 2em;
     display: flex;
