@@ -46,3 +46,13 @@
         grid-template-columns: repeat(3, 290px);
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .botao__inicial {
+        padding: 1em;
+    }
+
+    .container__grid {
+        grid-template-columns: repeat(4, 290px);
+    }
+}
