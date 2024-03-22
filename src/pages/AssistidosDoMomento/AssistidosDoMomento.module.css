@@ -40,3 +40,9 @@
         grid-template-columns: repeat(2, 370px);
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .container__grid {
+        grid-template-columns: repeat(3, 290px);
+    }
+}

@@ -98,3 +98,18 @@
         grid-template-columns: repeat(2, 370px);
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .container__caixa {
+        width: 370px;
+    }
+
+    .container__botao {
+        width: 100px;
+        font-size: 15px;
+    }
+
+    .container__grid {
+        grid-template-columns: repeat(3, 290px);
+    }
+}
