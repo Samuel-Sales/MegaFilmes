@@ -29,6 +29,18 @@
     gap: 20px;
 }
 
+@media screen and (min-width: 368px) and (max-width: 398px) {
+    .container__grid {
+        grid-template-columns: repeat(1, 270px);
+    }
+}
+
+@media screen and (min-width: 399px) and (max-width: 639px) {
+    .container__grid {
+        grid-template-columns: repeat(1, 270px);
+    }
+}
+
 @media screen and (min-width: 640px) {
     .container__grid {
         grid-template-columns: repeat(2, 270px);
