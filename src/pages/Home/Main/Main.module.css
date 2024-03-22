@@ -66,3 +66,21 @@
     grid-template-columns: repeat(5, 270px);  /* 4, 650px */
     gap: 20px;
 }
+
+@media screen and (min-width: 640px) {
+    .container__caixa {
+        width: 210px;
+    }
+
+    .container__caixa::placeholder {
+        font-size: 13px;
+    }
+
+    .container__botao {
+        width: 100px;
+    }
+
+    .container__grid {
+        grid-template-columns: repeat(2, 270px);
+    }
+}

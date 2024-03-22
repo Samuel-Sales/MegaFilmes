@@ -1,20 +1,36 @@
 .titulo {
     text-align: center;
     padding: 1em 0em 1em 0em;
-    background-color: blanchedalmond;
+    background-color: #222831;
     margin-bottom: 1em;
 }
 
 .container__cards {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 3.125rem;
     margin-bottom: 3.125rem;
 }
 
+.botao__inicial {
+    margin-bottom: 1em;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: .5em;
+    border-radius: 7px;
+}
+
 .container__grid {
     display: grid;
     grid-template-columns: repeat(5, 270px);  /* 4, 650px */
     gap: 20px;
+}
+
+@media screen and (min-width: 640px) {
+    .container__grid {
+        grid-template-columns: repeat(2, 270px);
+    }
 }
